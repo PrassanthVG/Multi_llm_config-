@@ -71,7 +71,7 @@ http://localhost:5173   (dev mode)
 import httpx, os
 
 GATEWAY_URL = "http://localhost:8000"
-GATEWAY_KEY  = "sk-murugan-gateway-2024"
+GATEWAY_KEY  = "sk-AI-gateway-2024"
 
 _client = httpx.AsyncClient(
     base_url=GATEWAY_URL,
@@ -123,7 +123,7 @@ That's it. No URLs, no tokens, no payload format concerns in main.py.
 
 | Variable | Default | Description |
 |----------|---------|-------------|
-| `LITELLM_MASTER_KEY` | `sk-murugan-gateway-2024` | LiteLLM proxy auth key |
+| `LITELLM_MASTER_KEY` | `sk-AI-gateway-2024` | LiteLLM proxy auth key |
 | `LITELLM_PORT` | `4000` | LiteLLM proxy port |
 | `GATEWAY_URL` | `http://localhost:8000` | Gateway base URL (for main.py) |
 | `ACTIVE_LLM_ALIAS` | *(DB default)* | Override default LLM alias |
@@ -134,7 +134,7 @@ That's it. No URLs, no tokens, no payload format concerns in main.py.
 ## File Structure
 
 ```
-murugan-provider-gateway/
+AI-provider-gateway/
 ├── backend/
 │   ├── main.py                    # FastAPI app
 │   ├── database.py                # SQLAlchemy async setup
