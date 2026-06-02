@@ -1,0 +1,11 @@
+general_settings:
+  master_key: sk-murugan-gateway-2024
+litellm_settings:
+  request_timeout: 120
+  ssl_verify: false
+model_list:
+- litellm_params:
+    api_base: http://213.181.122.2:40849/v1/chat/completions
+    api_key: dsdedwd
+    model: openai/ZySecAI/inference-v5:latest
+  model_name: f
