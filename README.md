@@ -1,4 +1,4 @@
-# MuruganAI — Dynamic Provider Gateway
+
 
 Unified AI provider management layer built on **LiteLLM Proxy**.
 
